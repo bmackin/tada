@@ -23,6 +23,12 @@
 </nav>
   </header>
 
+    <% flash.each do |type, message| %>
+  <div class="alert flash <%= type %>">
+    <%= message %>
+  </div>
+  <% end %>
+
   <body>
 
     <%= yield %>

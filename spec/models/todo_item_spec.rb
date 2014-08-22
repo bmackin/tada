@@ -16,4 +16,7 @@ describe TodoItem do
       expect(todo_item.completed?).to be_true
     end
   end
+
+  describe "#toggle_completion!" do
+    
 end

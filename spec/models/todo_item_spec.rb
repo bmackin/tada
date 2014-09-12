@@ -18,5 +18,6 @@ describe TodoItem do
   end
 
   describe "#toggle_completion!" do
-    
+  end
+  
 end
